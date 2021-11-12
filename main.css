@@ -97,6 +97,24 @@ html {
 
   /*
 =============== 
+*SPACERS
+===============
+*/
+  /**For vertical rhythm. Entre creados por mí y Javier.*/
+  --spacer-xs2: 0.5rem;
+  --spacer-xs: 0.75rem;
+  --spacer-s: 1rem;
+  --spacer-baseline: 1.5rem;
+  --spacer-l: 2rem;
+  --spacer-xl: 3rem;
+  --spacer-xl2: 4rem;
+  --spacer-xl3: 5rem;
+  --spacer-xl4: 6rem;
+  --spacer-xl5: 7rem;
+  --spacer-xl6: 8rem;
+
+  /*
+=============== 
 *BOX SHADOW
 ===============
 */
