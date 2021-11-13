@@ -78,7 +78,7 @@ You can add the [Better Comments](https://marketplace.visualstudio.com/items?ite
 
 #### Main color combinations
 
-In the ESSENTIAL variables there are 2 combinations of light/dark background/text to easily use along the project:
+In the ESSENTIAL variables there are 2 combinations of light/dark background/text colors to easily use contrasting sections along the project:
 
 ```css
 --background-color-light: var(--grey-50);

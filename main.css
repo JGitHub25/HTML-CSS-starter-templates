@@ -160,6 +160,11 @@ body {
   color: var(--text-color-dark);
 }
 
+.contrasting-section {
+  background: var(--background-color-dark);
+  color: var(--text-color-light);
+}
+
 p {
   margin-bottom: 1.5rem; /*?ALTERNATIVE: 1rem*/
   max-width: 40em; /*TODO: Added by JOHN*/
@@ -256,6 +261,12 @@ ul {
 .alert-success {
   color: var(--green-dark);
   background: var(--green-light);
+}
+
+/* icons */
+.fa-icon::before {
+  font-size: 1.5rem;
+  color: var(--primary-500);
 }
 
 /*
