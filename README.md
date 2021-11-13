@@ -19,7 +19,7 @@ Alternative/Fancier way of doing this:
 }
 ```
 
-- Find it [here ](https://necolas.github.io/normalize.css/)
+- Find it [here.](https://necolas.github.io/normalize.css/)
 
 ## Customize
 
@@ -29,7 +29,7 @@ Check the main properties to customize marked in the comments:
 /*TODO: CUSTOMIZE*/
 ```
 
-You can add the Better Comments extension to easily see them.
+You can add the [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) extension to easily see them.
 
 ## Fonts
 
@@ -75,3 +75,16 @@ You can add the Better Comments extension to easily see them.
 #### Box Shadow
 
 - [tailwind](https://tailwindcss.com/docs/box-shadow)
+
+#### Main color combinations
+
+In the ESSENTIAL variables there are 2 combinations of light/dark background/text to easily use along the project:
+
+```css
+--background-color-light: var(--grey-50);
+--text-color-dark: var(--grey-900);
+--background-color-dark: var(--primary-800);
+--text-color-light: var(--grey-100);
+```
+
+Check you combinations accessibility w/ [ACCESSIBLE COLORS.](https://accessible-colors.com/)

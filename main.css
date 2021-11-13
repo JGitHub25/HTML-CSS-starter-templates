@@ -101,17 +101,17 @@ html {
 ===============
 */
   /**For vertical rhythm. Entre creados por mí y Javier.*/
-  --spacer-xs2: 0.5rem;
+  --spacer-2xs: 0.5rem;
   --spacer-xs: 0.75rem;
   --spacer-s: 1rem;
   --spacer-baseline: 1.5rem;
   --spacer-l: 2rem;
   --spacer-xl: 3rem;
-  --spacer-xl2: 4rem;
-  --spacer-xl3: 5rem;
-  --spacer-xl4: 6rem;
-  --spacer-xl5: 7rem;
-  --spacer-xl6: 8rem;
+  --spacer-2xl: 4rem;
+  --spacer-3xl: 5rem;
+  --spacer-4xl: 6rem;
+  --spacer-5xl: 7rem;
+  --spacer-6xl: 8rem;
 
   /*
 =============== 
@@ -135,14 +135,16 @@ html {
   /*Layout*/ /*TODO: CUSTOMIZE*/
   --max-width: 1120px; /*Boxed-content*/
   --fixed-width: 600px; /*Fixed-sized content*/
-  /*Colors*/ /*TODO: CUSTOMIZE*/
-  --background-color: var(--grey-50);
-  --text-color: var(--grey-900);
+  /*Colors*/ /*TODO: CUSTOMIZE - CHECK ACCESIBILITY*/
+  --background-color-light: var(--grey-50);
+  --text-color-dark: var(--grey-900);
+  --background-color-dark: var(--primary-800);
+  --text-color-light: var(--grey-100);
 
   /*Others*/ /*TODO: CUSTOMIZE*/
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
+  --transition: 0.2s ease-in-out all;
 }
 
 /*
@@ -151,11 +153,11 @@ html {
 ===============
 */
 body {
-  background: var(--background-color);
+  background: var(--background-color-light);
   font-family: var(--body-font);
   font-weight: 400;
   line-height: 1.75; /*Usual 1.4-1.6*/
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 p {
@@ -328,7 +330,7 @@ ul {
   width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
-  background: var(--background-color);
+  background: var(--background-color-light);
   border: 1px solid var(--grey-200);
 }
 
