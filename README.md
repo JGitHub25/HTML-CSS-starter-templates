@@ -88,3 +88,7 @@ In the ESSENTIAL variables there are 2 combinations of light/dark background/tex
 ```
 
 Check you combinations accessibility w/ [ACCESSIBLE COLORS.](https://accessible-colors.com/)
+
+#### Icons
+
+[Font Awesome CDN](https://cdnjs.com/libraries/font-awesome)
