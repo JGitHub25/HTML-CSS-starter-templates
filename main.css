@@ -154,7 +154,7 @@ body {
   background: var(--background-color);
   font-family: var(--body-font);
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 1.75; /*Usual 1.4-1.6*/
   color: var(--text-color);
 }
 
@@ -322,6 +322,7 @@ ul {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
+
 .form-input,
 .form-textarea {
   width: 100%;
@@ -333,6 +334,17 @@ ul {
 
 .form-row {
   margin-bottom: 1rem;
+}
+
+.form-radio-btn-label,
+.form-checkbox-label {
+  font-size: var(--small-text);
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+}
+
+.form-clue {
+  font-size: var(--extra-small-text);
 }
 
 .form-textarea {
@@ -373,6 +385,7 @@ ul {
 }
 
 /** =============================================================MEDIA QUERIES========================================================= */
+/*TODO: Medi queriescan go to Variables.*/
 /*TODO: Media queries - Desktop first*/
 @media only screen and (max-width: 641px) {
   /**Mobile - SCALE: Major 2nd*/
