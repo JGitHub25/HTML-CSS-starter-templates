@@ -1,19 +1,15 @@
-# CSS Default Starter / Global Styles
+# HTML - CSS Starter Templates
 
 - Save time on project setup.
-- Less lines of CSS.
-
-```html
-If you prefer video format instead, just follow the link below
-```
-
-[Complete Video Tutorial](https://youtu.be/UDdyGNlQK5w)
+- Methodical approach to start/design a new project.
+- Extended from [John Smilga's Default Starter](https://github.com/john-smilga/default-starter)
+- See his [Complete Video Tutorial](https://youtu.be/UDdyGNlQK5w). I created Timestamps for it.
 
 ## Normalize
 
-Small CSS file that provides cross-browser consistency in the default styling of HTML elements.
+For cross-browser consistency in the default styling of HTML elements.
 
-Alternative/Fancier way of doing this
+Alternative/Fancier way of doing this:
 
 ```css
 * {
@@ -23,14 +19,17 @@ Alternative/Fancier way of doing this
 }
 ```
 
-- Go to [Docs ](https://necolas.github.io/normalize.css/)
-- Select the latest version
-- Create normalize.css
-- Setup the link in the html
+- Find it [here ](https://necolas.github.io/normalize.css/)
 
-```html
-<link rel="stylesheet" href="./normalize.css" />
+## Customize
+
+Check the main properties to customize marked in the comments:
+
+```css
+/*TODO: CUSTOMIZE*/
 ```
+
+You can add the Better Comments extension to easily see them.
 
 ## Fonts
 
@@ -39,11 +38,9 @@ Alternative/Fancier way of doing this
 - [fontpair](https://www.fontpair.co/)
 - [pagecloud](https://www.pagecloud.com/blog/best-google-fonts-pairings)
 
-#### Grab the CSS
+#### Choose a type scale
 
 - [typescale](https://type-scale.com/)
-
-Make some adjustments
 
 ## Colors
 
@@ -60,16 +57,13 @@ Make some adjustments
 }
 ```
 
-#### Select Primary
-
-Manual Approach
+#### Select Primary and Get shades
 
 - [coolors](https://coolors.co/)
 - [happyhues](https://www.happyhues.co/)
-- select your own color
-- get shades [shadowlord](https://noeldelgado.github.io/shadowlord/#73fdad)
-
-Library/Faster Approach
+- [Palette Ninja](https://palette.ninja/)
+- [Eva Design System](https://colors.eva.design/). Shades and palettes.
+- Get shades [shadowlord](https://noeldelgado.github.io/shadowlord/#73fdad)
 
 - [bootstrap](https://getbootstrap.com/docs/5.0/customize/color/#color-sass-maps)
 - [tailwind](https://tailwindcss.com/docs/customizing-colors#color-palette-reference)
@@ -77,10 +71,6 @@ Library/Faster Approach
 #### Select Grey
 
 - [tailwind](https://tailwindcss.com/docs/customizing-colors#color-palette-reference)
-
-#### Just go with happyhues
-
-- [happyheus](https://www.happyhues.co/)
 
 #### Box Shadow
 
