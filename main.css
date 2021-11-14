@@ -78,7 +78,9 @@ html {
   --grey-800: #1e293b;
   --grey-900: #0f172a;
 
-  /* accent and other utility colors. */
+  /* accent color */
+  --accent: #ff8075; /*TODO: CUSTOMIZE - Cuadrado Color Wheel.*/
+  /* Other utility colors. */
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da; /*!Error messages.*/
@@ -232,7 +234,7 @@ small,
 a {
   text-decoration: none;
   /*Added by me.*/
-  color: var(--secondary-500);
+  color: var(--accent);
   transition: var(--transition);
 }
 
