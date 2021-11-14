@@ -1,3 +1,6 @@
+/* fonts */ /*TODO: CUSTOMIZE -typescale*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:400|Roboto:400");
+
 /*
 =============== 
 *LAYOUT DEBUGGER - Remove later.
@@ -7,6 +10,7 @@ html {
   --outline: 1px dotted rgba(255, 0, 0, 0.5);
   --outline: 0px;
 }
+
 * {
   outline: var(--outline);
 }
@@ -21,9 +25,6 @@ html {
 ::before {
   box-sizing: border-box; /** Added by JOHN*/
 }
-
-/* fonts */ /*TODO: CUSTOMIZE -typescale*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
 
 html {
   font-size: 100%;
@@ -398,7 +399,7 @@ ul {
 }
 
 /** =============================================================MEDIA QUERIES========================================================= */
-/*TODO: Medi queriescan go to Variables.*/
+/*TODO: Media queries can go to Variables.*/
 /*TODO: Media queries - Desktop first*/
 @media only screen and (max-width: 641px) {
   /**Mobile - SCALE: Major 2nd*/
